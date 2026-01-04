@@ -6,6 +6,7 @@ import SketchfabBackground from "./components/3drender";
 
 export default function AliceInvitation() {
   const [opened, setOpened] = useState(false);
+  
 
   return (
     <main className="relative min-h-screen overflow-hidden">
@@ -62,14 +63,17 @@ export default function AliceInvitation() {
               <p>📍 Down the Rabbit Hole</p>
             </div>
 
-            <motion.button
+            <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
+              href="https://forms.gle/Dw8AzCXHM4NayfX69"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 px-8 py-3 bg-rose-600 text-white rounded-full shadow-lg"
-              onClick={() => alert("We're all mad here 🃏")}
+              
             >
               RSVP
-            </motion.button>
+            </motion.a>
 
             <p className="mt-6 italic text-gray-500">“We're all mad here.”</p>
           </motion.section>
