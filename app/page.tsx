@@ -58,9 +58,9 @@ export default function AliceInvitation() {
                 🎂 <strong>Danica</strong> turns <strong>22</strong>
               </p>
               <p>📅 Friday, 23 January 2025</p>
-                <p>🕕 14:00 till late</p>
-                <p> Address: 4 Verwoerd Avenue Pierre Van Ryneveld</p>
-              <p>📍 Down the Rabbit Hole</p>
+              <p>🕕 14:00 till late</p>
+              <p> 📍 4 Verwoerd Avenue Pierre Van Ryneveld</p>
+              
             </div>
 
             <motion.a
